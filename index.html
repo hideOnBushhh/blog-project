@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>郑雪源的博客</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./static/icon.ico">
+    <!-- <script src='./static/vue.js'></script> -->
+    <script src='./static/jq3.js'></script>
+    <script src='./static/dataArticle.js'></script>
+    <script src='./static/dataBackgroundWords.js'></script>
+    <link href="./static/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css.css">
+    <script>
+    var search = window.location.search ? window.location.search.split('?')[1] : '';
+    
+    </script>
+</head>
+
+<body>
+    <header class="mainHeader">
+        <div class="innerHeader">
+            <div class="titleHeader">
+                <a>
+                    <i></i>
+                    <span>郑雪源的博客</span>
+                    <i></i>
+                </a>
+            </div>
+            <nav class="navHeader">
+                <ul class="menuHeader">
+                    <li>
+                        <a href="/" rel="section">
+                            <i></i> 首页
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/?me" rel="section">
+                            <i></i> 我的简历
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/?tags" rel="section">
+                            <i></i> 标签
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/?archives" rel="section">
+                            <i></i> 归档
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="mainSection">
+        <div class="background">
+            <canvas id="canvas" width="1200px" height="600px"></canvas>
+        </div>
+        <div id="app">
+        </div>
+    </section>
+    <script src='./static/index.js'>
+    </script>
+    <script>
+    </script>
+</body>
+
+</html>
